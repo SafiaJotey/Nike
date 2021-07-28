@@ -26,6 +26,9 @@ img{
     color: white;
     margin-right: 2px;
 }
+.highlight{
+    color: #FA804C;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -51,15 +54,14 @@ header{
 /*hero-section*/
 .hero-section{
     margin-top: 29px;
+    padding-bottom: 141px;
 }
 
 .hero-section img{
     width: 90%;
 }
 
-.hero-section .highlight{
-    color: #FA804C;
-}
+
 
 .hero-section h1{
     font-family: 'Bebas Neue', cursive;
@@ -76,5 +78,94 @@ header{
     line-height: 26px;
     margin: 8px 0 24px;
 
+
+}
+
+/*Shoe-section */
+.Shoes-section{
+    margin-top: 37px ;
+}
+.Shoes-section h4{
+    margin-bottom:50px ;
+}
+.card{
+    margin: 5px 0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px rgb(190, 189, 189);
+}
+.card img{
+    width:100%;
+    border-radius: 15px;
+    border: 1px solid rgb(234, 243, 253);
+    background: #F1F1F1;
+}
+.card h5{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+
+
+}
+.card p{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.card h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+
+
+}
+.cfooter{
+    background-color: white;
+}
+
+
+/*store section*/
+.store-section {
+    margin-top:131px ;
+}
+.store-section .image img{
+    width: 50%;
+    
+}
+
+.store-section .card{
+    width: 80%;
+    
+}
+
+.store-section .card-title h5{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    
+    
+
+}
+
+.store-section .card-title h5{
+    font-family:'Roboto', sans-serif;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    
+
+    
+    
 
 }
